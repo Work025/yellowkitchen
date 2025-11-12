@@ -1,0 +1,57 @@
+.hero {
+    width: 100%;
+    height: 284px;
+    display: flex;
+    gap: 81px;
+    align-items: center;
+    justify-content: center;
+    background: url(../Assents//bg-lemon.svg);
+    object-fit: contain;
+    background-position: center;
+    background-size: 100%;
+}
+
+.hero-card {
+    position: relative;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-card::after {
+    position: absolute;
+    content: "";
+    width: 126px;
+    height: 126px;
+    top: -22px;
+    border: 1px solid #B79C10;
+    border-radius: 50%;
+}
+
+.hero-card h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #3F4255;
+}
+
+.hero-time {
+    width: 126px;
+    height: 126px;
+    display: flex;
+    align-items: flex-start;
+    padding: 13px 0 0 0;
+    justify-content: center;
+    background: #FFE145;
+    border-radius: 50%;
+}
+
+.hero-time p {
+    font-family: "DM sans" sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    letter-spacing: 0.05em;
+    color: #3F4255;
+}
